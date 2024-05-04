@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #003585;
+}
+
+.header {
+    background-color: #00000010;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.header h1 span {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #C0FF72;
+}
+
+.header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container section {
+    width: 100px
+}
+
+.container p span{
+        color: #C0FF72;
+}
+
+
+.galeria {
+    text-align: center;
+}
+
+.galeria h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.galeriaitem {
+    display: inline-block;
+    margin: 10px;
+}
+
+.galeriaitem img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #fff
+}
+
+.galeriaitem p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+.footer {
+    background-color: #00000010;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner img {
+    width: 50%;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Logo img {
+    width: 100%;
+}
+
+.Logo {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
